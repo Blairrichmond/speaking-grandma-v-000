@@ -1,5 +1,8 @@
-def speak_to_grandma
-
+def speak_to_grandma(string)
+  if string == string.uppercase
+    return 'I LOVE YOU TOO PUMPKIN!'
+  elsif string == 'Hi Nana, how are you?'
+    return 'HUH?! SPEAK UP, SONNY!'
 end
 
 # Whatever you say to grandma, she should respond with
